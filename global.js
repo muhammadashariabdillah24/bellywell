@@ -547,7 +547,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         checkoutButton.addEventListener("click", () => {
           window.location.href =
-            "https://muhammadashariabdillah24.github.io/checkout";
+            "https://muhammadashariabdillah24.github.io/bellywell/checkout";
         });
       } else {
         cartItems.innerHTML = `
@@ -984,7 +984,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
 
       // Tambahkan detail ke elemen produk
       productElement.innerHTML = `
-      <img src="https://muhammadashariabdillah24.github.io/image/${
+      <img src="https://muhammadashariabdillah24.github.io/bellywell/image/${
         product.image
       }" alt="Img Product" />
       <div class="product-preview-4-img-desc-product">
@@ -1007,7 +1007,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
           typeProduct: "Favorites",
           indexOfTypeProduct: index,
           title: product.title,
-          image: `https://muhammadashariabdillah24.github.io/image/${product.image}`,
+          image: `https://muhammadashariabdillah24.github.io/bellywell/image/${product.image}`,
           description: product.description,
           minPrice: minPrice,
           maxPrice: maxPrice,
@@ -1016,7 +1016,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
 
         localStorage.setItem("detailProduct", JSON.stringify(detailProduct));
         window.location.href =
-          "https://muhammadashariabdillah24.github.io/shop/detailproduct/";
+          "https://muhammadashariabdillah24.github.io/bellywell/shop/detailproduct/";
       });
 
       // Tambahkan elemen ke container
@@ -1044,7 +1044,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
       cateringPackagesElement.classList.add("catering-packages-0-img-product");
 
       cateringPackagesElement.innerHTML = `
-      <img src="https://muhammadashariabdillah24.github.io/image/${
+      <img src="https://muhammadashariabdillah24.github.io/bellywell/image/${
         product.image
       }" alt="Img Product" />
       <div class="catering-packages-0-img-desc-product">
@@ -1066,7 +1066,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
           typeProduct: "Catering Packages",
           indexOfTypeProduct: index,
           title: product.title,
-          image: `https://muhammadashariabdillah24.github.io/image/${product.image}`,
+          image: `https://muhammadashariabdillah24.github.io/bellywell/image/${product.image}`,
           description: product.description,
           minPrice: minPrice,
           maxPrice: maxPrice,
@@ -1075,7 +1075,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
 
         localStorage.setItem("detailProduct", JSON.stringify(detailProduct));
         window.location.href =
-          "https://muhammadashariabdillah24.github.io/shop/detailproduct/";
+          "https://muhammadashariabdillah24.github.io/bellywell/shop/detailproduct/";
       });
 
       cateringPackagesContainer.appendChild(cateringPackagesElement);
@@ -1101,7 +1101,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
       mealprepPackagesElement.classList.add("mealprep-packages-0-img-product");
 
       mealprepPackagesElement.innerHTML = `
-      <img src="https://muhammadashariabdillah24.github.io/image/${
+      <img src="https://muhammadashariabdillah24.github.io/bellywell/image/${
         product.image
       }" alt="Img Product" />
       <div class="mealprep-packages-0-img-desc-product">
@@ -1123,7 +1123,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
           typeProduct: "Mealprep Packages",
           indexOfTypeProduct: index,
           title: product.title,
-          image: `https://muhammadashariabdillah24.github.io/image/${product.image}`,
+          image: `https://muhammadashariabdillah24.github.io/bellywell/image/${product.image}`,
           description: product.description,
           minPrice: minPrice,
           maxPrice: maxPrice,
@@ -1132,7 +1132,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
 
         localStorage.setItem("detailProduct", JSON.stringify(detailProduct));
         window.location.href =
-          "https://muhammadashariabdillah24.github.io/shop/detailproduct/";
+          "https://muhammadashariabdillah24.github.io/bellywell/shop/detailproduct/";
       });
 
       mealprepPackagesContainer.appendChild(mealprepPackagesElement);
@@ -1181,7 +1181,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
           detailProductsElement.classList.add("detail-products-4-img-product");
 
           detailProductsElement.innerHTML = `
-      <img src="https://muhammadashariabdillah24.github.io/image/${
+      <img src="https://muhammadashariabdillah24.github.io/bellywell/image/${
         product.image
       }" alt="Img Product" />
       <div class="detail-products-4-img-desc-product">
@@ -1203,7 +1203,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
               typeProduct: detailProduct.typeProduct,
               indexOfTypeProduct: index,
               title: product.title,
-              image: `https://muhammadashariabdillah24.github.io/image/${product.image}`,
+              image: `https://muhammadashariabdillah24.github.io/bellywell/image/${product.image}`,
               description: product.description,
               minPrice: minPrice,
               maxPrice: maxPrice,
@@ -1215,7 +1215,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
               JSON.stringify(sameDetailProduct)
             );
             window.location.href =
-              "https://muhammadashariabdillah24.github.io/shop/detailproduct/";
+              "https://muhammadashariabdillah24.github.io/bellywell/shop/detailproduct/";
           });
 
           detailProductsContainer.appendChild(detailProductsElement);
@@ -1887,7 +1887,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
 
           checkoutButton.addEventListener("click", () => {
             window.location.href =
-              "https://muhammadashariabdillah24.github.io/checkout";
+              "https://muhammadashariabdillah24.github.io/bellywell/checkout";
           });
         } else {
           cartItems.innerHTML = `
