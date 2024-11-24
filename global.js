@@ -281,7 +281,7 @@ function formatRupiah(amount) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const noWa = "6289529630122";
+  const noWa = "6281282532351";
   // Proteksi karakter yang tidak diperbolehkan untuk semua inputan bertipe number
   document.addEventListener("input", (event) => {
     if (event.target.type === "number") {
@@ -995,7 +995,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
         <p class="lato-bold price-product">${formatRupiah(
           minPrice
         )} – ${formatRupiah(maxPrice)}</p>
-        <a href="https://wa.me/628111559898?text=Halo saya dari website dan ingin pesan paket makanan sehat Bellywell. Mohon informasinya lebih lanjut. terima kasih." 
+        <a href="https://wa.me/${noWa}?text=Halo saya dari website dan ingin pesan paket makanan sehat Bellywell. Mohon informasinya lebih lanjut. terima kasih." 
            class="contact-wa-us-button lato-regular" target="_blank">Pesan sekarang</a>
       </div>
     `;
@@ -1055,7 +1055,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
         <p class="lato-bold price-product">${formatRupiah(
           minPrice
         )} – ${formatRupiah(maxPrice)}</p>
-        <a href="https://wa.me/628111559898?text=Halo saya dari website dan ingin pesan paket makanan sehat Bellywell. Mohon informasinya lebih lanjut. terima kasih." 
+        <a href="https://wa.me/${noWa}?text=Halo saya dari website dan ingin pesan paket makanan sehat Bellywell. Mohon informasinya lebih lanjut. terima kasih." 
            class="contact-wa-us-button lato-regular" target="_blank">Pesan sekarang</a>
       </div>
     `;
@@ -1112,7 +1112,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
         <p class="lato-bold price-product">${formatRupiah(
           minPrice
         )} – ${formatRupiah(maxPrice)}</p>
-        <a href="https://wa.me/628111559898?text=Halo saya dari website dan ingin pesan paket makanan sehat Bellywell. Mohon informasinya lebih lanjut. terima kasih." 
+        <a href="https://wa.me/${noWa}?text=Halo saya dari website dan ingin pesan paket makanan sehat Bellywell. Mohon informasinya lebih lanjut. terima kasih." 
            class="contact-wa-us-button lato-regular" target="_blank">Pesan sekarang</a>
       </div>
     `;
@@ -1192,7 +1192,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
         <p class="lato-bold price-product">${formatRupiah(
           minPrice
         )} – ${formatRupiah(maxPrice)}</p>
-        <a href="https://wa.me/628111559898?text=Halo saya dari website dan ingin pesan paket makanan sehat Bellywell. Mohon informasinya lebih lanjut. terima kasih." 
+        <a href="https://wa.me/${noWa}?text=Halo saya dari website dan ingin pesan paket makanan sehat Bellywell. Mohon informasinya lebih lanjut. terima kasih." 
            class="contact-wa-us-button lato-regular" target="_blank">Pesan sekarang</a>
       </div>
     `;
