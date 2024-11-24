@@ -1,0 +1,227 @@
+[
+  {
+    "title": "1. Paket Healthy Catering",
+    "description": "Paket Healthy dari Bellywell adalah pilihan tepat bagi Anda yang ingin hidup lebih sehat dengan mengonsumsi makanan rendah lemak namun tetap lezat. Makanan ini tinggi protein, rendah lemak, dan karbohidrat moderat dengan total kalori sekitar 400 – 500 kalori.",
+    "options": [
+      {
+        "title": "Lunch/Dinner",
+        "options": [
+          {
+            "name": "Lunch",
+            "duration": [
+              {
+                "type": "1 Minggu",
+                "price": 400000
+              },
+              {
+                "type": "2 Minggu",
+                "price": 725000
+              },
+              {
+                "type": "1 Bulan",
+                "price": 1400000
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "duration": [
+              {
+                "type": "1 Minggu",
+                "price": 400000
+              },
+              {
+                "type": "2 Minggu",
+                "price": 725000
+              },
+              {
+                "type": "1 Bulan",
+                "price": 1400000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "2. Paket Vegan Healthy",
+    "description": "Bellywell Vegan Catering adalah 100% plant-based catering rendah lemak dan kalori yang tetap mempertahankan cita rasa makanan sesungguhnya. Menggunakan bahan pilihan yang 100% plant-based dan diolah tanpa mengurangi rasa namun rendah kalori dan lemak.",
+    "options": [
+      {
+        "title": "Lunch/Dinner",
+        "options": [
+          {
+            "name": "Lunch",
+            "duration": [
+              {
+                "type": "1 Minggu",
+                "price": 400000
+              },
+              {
+                "type": "2 Minggu",
+                "price": 725000
+              },
+              {
+                "type": "1 Bulan",
+                "price": 1400000
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "duration": [
+              {
+                "type": "1 Minggu",
+                "price": 400000
+              },
+              {
+                "type": "2 Minggu",
+                "price": 725000
+              },
+              {
+                "type": "1 Bulan",
+                "price": 1400000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "3. Paket Vegan Slimming",
+    "description": "Paket Vegan Slimming dari Bellywell dirancang untuk membantu menurunkan berat badan dengan menu 100% plant-based yang rendah kalori namun tetap lezat.",
+    "options": [
+      {
+        "title": "Lunch/Dinner",
+        "options": [
+          {
+            "name": "Lunch",
+            "duration": [
+              {
+                "type": "1 Minggu",
+                "price": 460000
+              },
+              {
+                "type": "2 Minggu",
+                "price": 845000
+              },
+              {
+                "type": "1 Bulan",
+                "price": 1640000
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "duration": [
+              {
+                "type": "1 Minggu",
+                "price": 460000
+              },
+              {
+                "type": "2 Minggu",
+                "price": 845000
+              },
+              {
+                "type": "1 Bulan",
+                "price": 1640000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "4. Paket Vegan Muscle Growth",
+    "description": "Paket Vegan Muscle Growth dari Bellywell dirancang untuk membantu pertumbuhan otot dengan menu 100% plant-based yang tinggi protein dan nutrisi penting lainnya.",
+    "options": [
+      {
+        "title": "Lunch/Dinner",
+        "options": [
+          {
+            "name": "Lunch",
+            "duration": [
+              {
+                "type": "1 Minggu",
+                "price": 475000
+              },
+              {
+                "type": "2 Minggu",
+                "price": 875000
+              },
+              {
+                "type": "1 Bulan",
+                "price": 1700000
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "duration": [
+              {
+                "type": "1 Minggu",
+                "price": 475000
+              },
+              {
+                "type": "2 Minggu",
+                "price": 875000
+              },
+              {
+                "type": "1 Bulan",
+                "price": 1700000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "5. Paket Muscle Growth",
+    "description": "Paket Muscle Growth dari Bellywell adalah pilihan tepat bagi Anda yang ingin meningkatkan massa otot dengan menu tinggi protein, rendah lemak, dan karbohidrat moderat.",
+    "options": [
+      {
+        "title": "Lunch/Dinner",
+        "options": [
+          {
+            "name": "Lunch",
+            "duration": [
+              {
+                "type": "1 Minggu",
+                "price": 475000
+              },
+              {
+                "type": "2 Minggu",
+                "price": 875000
+              },
+              {
+                "type": "1 Bulan",
+                "price": 1700000
+              }
+            ]
+          },
+          {
+            "name": "Dinner",
+            "duration": [
+              {
+                "type": "1 Minggu",
+                "price": 475000
+              },
+              {
+                "type": "2 Minggu",
+                "price": 875000
+              },
+              {
+                "type": "1 Bulan",
+                "price": 1700000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

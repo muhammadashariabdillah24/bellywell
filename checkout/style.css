@@ -1,0 +1,163 @@
+/* General Styles */
+h2 {
+  margin-bottom: 20px;
+}
+
+.checkout-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  overflow-y: auto;
+}
+
+.billing-details,
+.order-summary {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 49%;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+textarea {
+  height: 40px;
+  font-size: 15px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  font-size: 15px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+.order-summary .order-item {
+  margin-bottom: 15px;
+}
+
+.order-summary hr {
+  border: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.place-order {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.place-order:hover {
+  background-color: #45a049;
+}
+
+.place-order .place-order-text {
+  transition: opacity 0.3s ease;
+}
+
+.place-order .place-order-loader {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #ffffff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  position: absolute;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  /* (MD = 600) START | FOOTER */
+
+  .checkout-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .billing-details,
+  .order-summary {
+    width: 100%;
+  }
+
+  .place-order {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  input,
+  select,
+  textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  /* (MD = 600) END | FOOTER */
+}

@@ -1,0 +1,92 @@
+/* START | PRODUCT OVERVIEW */
+.product-preview-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.product-preview-0 {
+  position: relative;
+  background-image: url("http://127.0.0.1:5500/image/9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vw;
+  width: 100%;
+}
+
+.product-preview-0 #text1 {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  max-width: 40%;
+  color: #cec9c2;
+}
+
+.product-preview-0 #text2 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  max-width: 45%;
+  color: #d1c8ba;
+}
+
+.product-preview-1 {
+  position: relative;
+  background-image: url("http://127.0.0.1:5500/image/10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 55vw;
+  width: 100%;
+}
+
+.visi-misi-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: max-content; */
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.visi-misi-content {
+  text-align: center;
+  font-size: 1.5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border: 5px dashed #69513f;
+  padding: 2vw;
+  border-radius: 20px;
+  display: flex;
+  width: 25vw;
+  height: 55vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.visi-misi-content h2,
+h3 {
+  color: #69513f;
+}
+
+.visi-misi-content p {
+  font-size: 2vw;
+  color: #69513f;
+}
+
+.visi-misi-content img {
+  width: 8vw;
+  height: 9vw;
+  object-fit: fill;
+}
+
+.visi-misi-content #img2 {
+  width: 9vw;
+  height: 9vw;
+  object-fit: fill;
+}
+
+/* END | PRODUCT OVERVIEW */

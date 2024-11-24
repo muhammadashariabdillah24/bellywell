@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="icon"
+      href="http://127.0.0.1:5500/image/Logo-Bellywell.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="http://127.0.0.1:5500/global.css" />
+    <!-- SLICK CAROUSEL -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <!-- AOS (Animated On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Catering Packages - Bellywell</title>
+  </head>
+  <body>
+    <!-- START | HTML SECTION -->
+    <div class="container">
+      <!-- START | NAVBAR -->
+      <div class="navbar-container" id="navbar-container">
+        <nav class="navbar-wrapper">
+          <!-- START | NAV MOBILE -->
+          <div id="navbar-left-wrapper-mobile" onclick="toggleDrawer()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="3em"
+              height="3em"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M4 18q-.425 0-.712-.288T3 17t.288-.712T4 16h16q.425 0 .713.288T21 17t-.288.713T20 18zm0-5q-.425 0-.712-.288T3 12t.288-.712T4 11h16q.425 0 .713.288T21 12t-.288.713T20 13zm0-5q-.425 0-.712-.288T3 7t.288-.712T4 6h16q.425 0 .713.288T21 7t-.288.713T20 8z"
+              />
+            </svg>
+          </div>
+          <div id="navbar-center-wrapper-mobile">
+            <div id="navbar-logo-mobile">
+              <img
+                id="logo-mobile"
+                src="http://127.0.0.1:5500/image/Logo-Bellywell.png"
+              />
+            </div>
+          </div>
+          <div id="navbar-right-wrapper-mobile">
+            <svg
+              class="icon-nav"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.5em"
+              height="1.5em"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M4 22V6h4q0-1.65 1.175-2.825T12 2t2.825 1.175T16 6h4v16zm2-2h12V8h-2v3h-2V8h-4v3H8V8H6zm4-14h4q0-.825-.587-1.412T12 4t-1.412.588T10 6M6 20V8z"
+              />
+            </svg>
+          </div>
+          <!-- END | NAV MOBILE -->
+
+          <!-- START | NAV -->
+          <div id="navbar-left-wrapper">
+            <div id="navbar-logo">
+              <img
+                id="logo"
+                src="http://127.0.0.1:5500/image/Logo-Bellywell.png"
+              />
+            </div>
+          </div>
+          <div id="navbar-center-wrapper">
+            <a
+              href="http://127.0.0.1:5500/home/"
+              class="navbar-link lato-regular active"
+              >HOME</a
+            >
+            <div class="navbar-link lato-regular dropdown">
+              <span class="dropdown-item lato-regular">SHOP</span>
+              <div class="dropdown-content">
+                <a
+                  href="http://127.0.0.1:5500/shop/cateringpackages/"
+                  class="dropdown-item lato-regular"
+                  >Catering Packages</a
+                >
+                <a
+                  href="http://127.0.0.1:5500/shop/mealprep/"
+                  class="dropdown-item lato-regular"
+                  >Mealprep</a
+                >
+              </div>
+            </div>
+
+            <a
+              href="http://127.0.0.1:5500/faqs/"
+              class="navbar-link lato-regular"
+              >FAQS</a
+            >
+            <a
+              href="http://127.0.0.1:5500/aboutus/"
+              class="navbar-link lato-regular"
+              >ABOUTUS</a
+            >
+          </div>
+          <div id="navbar-right-wrapper">
+            <svg
+              class="icon-nav"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.5em"
+              height="1.5em"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l5.6 5.6q.275.275.275.7t-.275.7t-.7.275t-.7-.275l-5.6-5.6q-.75.6-1.725.95T9.5 16m0-2q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14"
+              />
+            </svg>
+            <svg
+              class="icon-nav"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.5em"
+              height="1.5em"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M12 20.325q-.35 0-.712-.125t-.638-.4l-1.725-1.575q-2.65-2.425-4.788-4.812T2 8.15Q2 5.8 3.575 4.225T7.5 2.65q1.325 0 2.5.562t2 1.538q.825-.975 2-1.537t2.5-.563q2.35 0 3.925 1.575T22 8.15q0 2.875-2.125 5.275T15.05 18.25l-1.7 1.55q-.275.275-.637.4t-.713.125M11.05 6.75q-.725-1.025-1.55-1.563t-2-.537q-1.5 0-2.5 1t-1 2.5q0 1.3.925 2.763t2.213 2.837t2.65 2.575T12 18.3q.85-.775 2.213-1.975t2.65-2.575t2.212-2.837T20 8.15q0-1.5-1-2.5t-2.5-1q-1.175 0-2 .538T12.95 6.75q-.175.25-.425.375T12 7.25t-.525-.125t-.425-.375m.95 4.725"
+              />
+            </svg>
+
+            <div id="cart-total-container" class="cart-total-container">
+              <div class="cart-total-wrapper">
+                <svg
+                  class="icon-nav"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.5em"
+                  height="1.5em"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M4 22V6h4q0-1.65 1.175-2.825T12 2t2.825 1.175T16 6h4v16zm2-2h12V8h-2v3h-2V8h-4v3H8V8H6zm4-14h4q0-.825-.587-1.412T12 4t-1.412.588T10 6M6 20V8z"
+                  />
+                </svg>
+                <!-- Lingkaran untuk jumlah produk -->
+                <span id="badge" class="badge"></span>
+                <!-- Persegi panjang untuk nominal harga -->
+              </div>
+              <span id="price-tag" class="price-tag">Rp 150.000</span>
+            </div>
+          </div>
+          <!-- END | NAV -->
+        </nav>
+      </div>
+      <!-- END | NAVBAR -->
+      <!-- START | DRAWER MENU -->
+      <div id="drawer-menu-wrapper" class="drawer-menu-wrapper">
+        <div class="drawer-content-wrapper">
+          <a href="#" class="close-btn-drawer" onclick="toggleDrawer()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="2em"
+              height="2em"
+              viewBox="0 0 32 32"
+            >
+              <path
+                fill="currentColor"
+                d="M16 2C8.2 2 2 8.2 2 16s6.2 14 14 14s14-6.2 14-14S23.8 2 16 2m5.4 21L16 17.6L10.6 23L9 21.4l5.4-5.4L9 10.6L10.6 9l5.4 5.4L21.4 9l1.6 1.6l-5.4 5.4l5.4 5.4z"
+              />
+            </svg>
+          </a>
+          <a
+            href="http://127.0.0.1:5500/home/"
+            class="navbar-link lato-regular active"
+            >HOME</a
+          >
+          <div class="drawer-item-dropdown-wrapper">
+            <div
+              class="drawer-item-dropdown"
+              onclick="toggleDrawerMenuContent(this)"
+            >
+              <span class="lato-bold">SHOP</span>
+              <svg
+                class="chevron-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="2em"
+                height="2em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M12 14.975q-.2 0-.375-.062T11.3 14.7l-4.6-4.6q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l3.9 3.9l3.9-3.9q.275-.275.7-.275t.7.275t.275.7t-.275.7l-4.6 4.6q-.15.15-.325.213t-.375.062"
+                />
+              </svg>
+            </div>
+            <div class="drawer-item-dropdown-content">
+              <a
+                href="http://127.0.0.1:5500/shop/cateringpackages/"
+                class="navbar-link lato-regular"
+                >Catering Packages</a
+              >
+              <a
+                href="http://127.0.0.1:5500/shop/mealprep/"
+                class="navbar-link lato-regular"
+                >Mealprep</a
+              >
+            </div>
+          </div>
+          <a href="http://127.0.0.1:5500/faqs/" class="navbar-link lato-regular"
+            >FAQS</a
+          >
+          <a
+            href="http://127.0.0.1:5500/aboutus/"
+            class="navbar-link lato-regular"
+            >ABOUTUS</a
+          >
+          <hr />
+        </div>
+      </div>
+      <!-- END | DRAWER MENU -->
+
+      <!-- START | GLOBAL SHOPPING CART -->
+      <div id="shopping-cart" class="shopping-cart">
+        <div class="header">
+          <h3 class="lato-bold">Shopping cart</h3>
+          <button id="close-btn" class="close-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1.5em"
+              height="1.5em"
+              viewBox="0 0 32 32"
+            >
+              <path
+                fill="currentColor"
+                d="M16 2C8.2 2 2 8.2 2 16s6.2 14 14 14s14-6.2 14-14S23.8 2 16 2m5.4 21L16 17.6L10.6 23L9 21.4l5.4-5.4L9 10.6L10.6 9l5.4 5.4L21.4 9l1.6 1.6l-5.4 5.4l5.4 5.4z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div id="cart-items" class="cart-items"></div>
+        <div id="cart-footer" class="cart-footer">
+          <p>
+            <strong>Subtotal:</strong>
+            <span id="subtotal" class="subtotal"></span>
+          </p>
+          <div class="action-buttons">
+            <button id="view-cart" class="view-cart">
+              <span class="view-cart-text">View Cart</span>
+            </button>
+            <button id="checkout" class="checkout">
+              <span class="checkout-text">Checkout</span>
+              <div class="button-loader" style="display: none"></div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- END | GLOBAL SHOPING CART -->
+
+      <!-- START | PRODUCT-PREVIEW -->
+      <div class="banner">
+        <img
+          src="http://127.0.0.1:5500/image/catering-packages-banner.jpeg"
+          alt="Catering Packages Banner"
+        />
+      </div>
+      <div class="catering-packages-0">
+        <div
+          id="product-preview-4-all-product-cateringpackages"
+          class="catering-packages-0-all-product"
+        ></div>
+      </div>
+      <!-- END | PRODUCT-PREVIEW -->
+
+      <!-- START | FOOTER -->
+      <div class="footer-wrapper">
+        <div class="footer-content-wrapper">
+          <div class="footer-content">
+            <h3 class="lato-bold">GRAB FOOD</h3>
+            <a
+              href="https://food.grab.com/id/en/restaurant/bellywell-karet-sudirman-delivery/6-CY4UTKDKCLN1AA"
+              class="lato-regular"
+              target="_blank"
+              >Karet</a
+            >
+            <a href="#" class="lato-regular">Santa</a>
+            <a
+              href="https://food.grab.com/id/id/restaurant/bellywell-kebayoran-lama-selatan-delivery/6-CY6AG3TUJVEDCT"
+              class="lato-regular"
+              target="_blank"
+              >Kebayoran Lama</a
+            >
+          </div>
+          <div class="footer-content">
+            <h3 class="lato-bold">GO FOOD</h3>
+            <a
+              href="https://gofood.co.id/en/jakarta/restaurant/bellywell-healthy-food-karet-2ad207b3-2927-4686-b54a-f885c902b38a"
+              class="lato-regular"
+              target="_blank"
+              >Karet</a
+            >
+            <a
+              href="https://gofood.co.id/en/jakarta/restaurant/bellywell-healthy-food-santa-750af209-4494-4711-a977-7fdadf4fa2c2"
+              class="lato-regular"
+              target="_blank"
+              >Santa</a
+            >
+            <a
+              href="https://gofood.co.id/en/jakarta/restaurant/bellywell-healthy-food-kebayoran-lama-ca062b06-c049-4bbf-bf89-071f041d766b"
+              class="lato-regular"
+              target="_blank"
+              >Kebayoran Lama</a
+            >
+          </div>
+          <div class="footer-content">
+            <h3 class="lato-bold">ALSO AVAILABLE AT</h3>
+            <a
+              href="https://www.tokopedia.com/bellywell/product"
+              class="lato-regular"
+              target="_blank"
+              >Tokopedia</a
+            >
+            <a
+              href="https://shopee.co.id/bellywell"
+              class="lato-regular"
+              target="_blank"
+              >Shopee</a
+            >
+            <a href="#" class="lato-regular">Kulina</a>
+          </div>
+          <div class="footer-content">
+            <h3 class="lato-bold">COMPANY</h3>
+            <a href="#" class="lato-regular">About Us</a>
+            <a href="#" class="lato-regular">Contact Us</a>
+          </div>
+          <div class="footer-content">
+            <h3 class="lato-bold">SOSIAL MEDIA</h3>
+            <a href="#" class="lato-regular">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 256 256"
+              >
+                <g fill="none">
+                  <rect
+                    width="256"
+                    height="256"
+                    fill="url(#skillIconsInstagram0)"
+                    rx="60"
+                  />
+                  <rect
+                    width="256"
+                    height="256"
+                    fill="url(#skillIconsInstagram1)"
+                    rx="60"
+                  />
+                  <path
+                    fill="#fff"
+                    d="M128.009 28c-27.158 0-30.567.119-41.233.604c-10.646.488-17.913 2.173-24.271 4.646c-6.578 2.554-12.157 5.971-17.715 11.531c-5.563 5.559-8.98 11.138-11.542 17.713c-2.48 6.36-4.167 13.63-4.646 24.271c-.477 10.667-.602 14.077-.602 41.236s.12 30.557.604 41.223c.49 10.646 2.175 17.913 4.646 24.271c2.556 6.578 5.973 12.157 11.533 17.715c5.557 5.563 11.136 8.988 17.709 11.542c6.363 2.473 13.631 4.158 24.275 4.646c10.667.485 14.073.604 41.23.604c27.161 0 30.559-.119 41.225-.604c10.646-.488 17.921-2.173 24.284-4.646c6.575-2.554 12.146-5.979 17.702-11.542c5.563-5.558 8.979-11.137 11.542-17.712c2.458-6.361 4.146-13.63 4.646-24.272c.479-10.666.604-14.066.604-41.225s-.125-30.567-.604-41.234c-.5-10.646-2.188-17.912-4.646-24.27c-2.563-6.578-5.979-12.157-11.542-17.716c-5.562-5.562-11.125-8.979-17.708-11.53c-6.375-2.474-13.646-4.16-24.292-4.647c-10.667-.485-14.063-.604-41.23-.604zm-8.971 18.021c2.663-.004 5.634 0 8.971 0c26.701 0 29.865.096 40.409.575c9.75.446 15.042 2.075 18.567 3.444c4.667 1.812 7.994 3.979 11.492 7.48c3.5 3.5 5.666 6.833 7.483 11.5c1.369 3.52 3 8.812 3.444 18.562c.479 10.542.583 13.708.583 40.396s-.104 29.855-.583 40.396c-.446 9.75-2.075 15.042-3.444 18.563c-1.812 4.667-3.983 7.99-7.483 11.488c-3.5 3.5-6.823 5.666-11.492 7.479c-3.521 1.375-8.817 3-18.567 3.446c-10.542.479-13.708.583-40.409.583c-26.702 0-29.867-.104-40.408-.583c-9.75-.45-15.042-2.079-18.57-3.448c-4.666-1.813-8-3.979-11.5-7.479s-5.666-6.825-7.483-11.494c-1.369-3.521-3-8.813-3.444-18.563c-.479-10.542-.575-13.708-.575-40.413s.096-29.854.575-40.396c.446-9.75 2.075-15.042 3.444-18.567c1.813-4.667 3.983-8 7.484-11.5s6.833-5.667 11.5-7.483c3.525-1.375 8.819-3 18.569-3.448c9.225-.417 12.8-.542 31.437-.563zm62.351 16.604c-6.625 0-12 5.37-12 11.996c0 6.625 5.375 12 12 12s12-5.375 12-12s-5.375-12-12-12zm-53.38 14.021c-28.36 0-51.354 22.994-51.354 51.355s22.994 51.344 51.354 51.344c28.361 0 51.347-22.983 51.347-51.344c0-28.36-22.988-51.355-51.349-51.355zm0 18.021c18.409 0 33.334 14.923 33.334 33.334c0 18.409-14.925 33.334-33.334 33.334s-33.333-14.925-33.333-33.334c0-18.411 14.923-33.334 33.333-33.334"
+                  />
+                  <defs>
+                    <radialGradient
+                      id="skillIconsInstagram0"
+                      cx="0"
+                      cy="0"
+                      r="1"
+                      gradientTransform="matrix(0 -253.715 235.975 0 68 275.717)"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#fd5" />
+                      <stop offset=".1" stop-color="#fd5" />
+                      <stop offset=".5" stop-color="#ff543e" />
+                      <stop offset="1" stop-color="#c837ab" />
+                    </radialGradient>
+                    <radialGradient
+                      id="skillIconsInstagram1"
+                      cx="0"
+                      cy="0"
+                      r="1"
+                      gradientTransform="matrix(22.25952 111.2061 -458.39518 91.75449 -42.881 18.441)"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="#3771c8" />
+                      <stop offset=".128" stop-color="#3771c8" />
+                      <stop offset="1" stop-color="#60f" stop-opacity="0" />
+                    </radialGradient>
+                  </defs>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="footer-content">
+            <img
+              id="logo-footer"
+              src="http://127.0.0.1:5500/image/Logo-Bellywell.png"
+            />
+            <a href="#" class="lato-bold">marketing@bellywell.id</a>
+          </div>
+        </div>
+        <div class="footer-reserved">
+          <p class="lato-bold">Bellywell 2021 - All Rights Reserved</p>
+        </div>
+      </div>
+      <!-- END | FOOTER -->
+
+      <a
+        href="https://wa.me/628111559898?text=Halo%2C%20saya%20dari%20website%20dan%20ingin%20pesan%20paket%20makanan%20sehat%20Gorry%20Gourmet.%0A%0AMohon%20informasinya%20lebih%20lanjut%2C%20terima%20kasih. "
+        target="_blank"
+        rel="noreferrer"
+        class="contact-us-button-fixed"
+        >Contact Us</a
+      >
+
+      <!-- Scroll to Top Button -->
+      <button id="scrollToTopBtn" aria-label="Scroll to top">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 512 512"
+        >
+          <path
+            fill="currentColor"
+            d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3L86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"
+          />
+        </svg>
+      </button>
+    </div>
+    <!-- END | HTML SECTION -->
+
+    <!-- START | JAVASCRIPT SECTION -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="http://127.0.0.1:5500/global.js"></script>
+    <!-- END | JAVASCRIPT SECTION -->
+  </body>
+</html>

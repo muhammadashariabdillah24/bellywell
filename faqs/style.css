@@ -1,0 +1,223 @@
+/* START | PRODUCT OVERVIEW */
+.product-preview-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.product-preview-0 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50vw;
+  width: 100%;
+}
+
+.product-preview-0 .section-one {
+  position: relative;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 50vw;
+  width: 50%;
+}
+
+.product-preview-0 .vertical-line {
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+.product-preview-0 .section-two {
+  position: relative;
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  height: 50vw;
+  width: 50%;
+}
+
+.section-header {
+  height: 5vw;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.section-header h3 {
+  color: rgba(0, 0, 0, 1);
+}
+
+.note-wrapper {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.note {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.note h3 {
+  font-size: 1.5vw;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.note-content {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.note-content p {
+  font-size: 1.3vw;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.note-content img {
+  margin-top: 20px;
+  width: 100%;
+  height: 30vw;
+  object-fit: fill;
+}
+
+.chevron-icon {
+  transition: transform 0.3s ease;
+}
+
+.note.open .chevron-icon {
+  transform: rotate(180deg);
+}
+/* END | PRODUCT OVERVIEW */
+
+@media (max-width: 600px) {
+  /* (MD = 600) START | FOOTER */
+
+  .product-preview-0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  .product-preview-0 .section-one {
+    position: relative;
+    width: 100%;
+  }
+
+  .product-preview-0 .vertical-line {
+    width: 0px;
+    height: 0%;
+  }
+
+  .product-preview-0 .section-two {
+    position: relative;
+
+    width: 100%;
+  }
+
+  .section-header {
+    height: 5vw;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .section-header h3 {
+    font-size: 5vw;
+  }
+
+  .note-wrapper {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .note {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .note h3 {
+    font-size: 4vw;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .note-content {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .note-content p {
+    font-size: 4vw;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .note-content img {
+    margin-top: 20px;
+    width: 100%;
+    height: 30vw;
+    object-fit: fill;
+  }
+
+  .chevron-icon {
+    transition: transform 0.3s ease;
+  }
+
+  .note.open .chevron-icon {
+    transform: rotate(180deg);
+  }
+
+  /* (MD = 600) END | FOOTER */
+}
