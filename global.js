@@ -546,7 +546,8 @@ document.addEventListener("DOMContentLoaded", () => {
         // const checkoutButton = document.getElementById("checkout");
 
         checkoutButton.addEventListener("click", () => {
-          window.location.href = "http://127.0.0.1:5500/checkout";
+          window.location.href =
+            "https://muhammadashariabdillah24.github.io/checkout";
         });
       } else {
         cartItems.innerHTML = `
@@ -983,7 +984,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
 
       // Tambahkan detail ke elemen produk
       productElement.innerHTML = `
-      <img src="http://127.0.0.1:5500/image/${
+      <img src="https://muhammadashariabdillah24.github.io/image/${
         product.image
       }" alt="Img Product" />
       <div class="product-preview-4-img-desc-product">
@@ -1006,7 +1007,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
           typeProduct: "Favorites",
           indexOfTypeProduct: index,
           title: product.title,
-          image: `http://127.0.0.1:5500/image/${product.image}`,
+          image: `https://muhammadashariabdillah24.github.io/image/${product.image}`,
           description: product.description,
           minPrice: minPrice,
           maxPrice: maxPrice,
@@ -1014,7 +1015,8 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
         };
 
         localStorage.setItem("detailProduct", JSON.stringify(detailProduct));
-        window.location.href = "http://127.0.0.1:5500/shop/detailproduct/";
+        window.location.href =
+          "https://muhammadashariabdillah24.github.io/shop/detailproduct/";
       });
 
       // Tambahkan elemen ke container
@@ -1042,7 +1044,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
       cateringPackagesElement.classList.add("catering-packages-0-img-product");
 
       cateringPackagesElement.innerHTML = `
-      <img src="http://127.0.0.1:5500/image/${
+      <img src="https://muhammadashariabdillah24.github.io/image/${
         product.image
       }" alt="Img Product" />
       <div class="catering-packages-0-img-desc-product">
@@ -1064,7 +1066,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
           typeProduct: "Catering Packages",
           indexOfTypeProduct: index,
           title: product.title,
-          image: `http://127.0.0.1:5500/image/${product.image}`,
+          image: `https://muhammadashariabdillah24.github.io/image/${product.image}`,
           description: product.description,
           minPrice: minPrice,
           maxPrice: maxPrice,
@@ -1072,7 +1074,8 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
         };
 
         localStorage.setItem("detailProduct", JSON.stringify(detailProduct));
-        window.location.href = "http://127.0.0.1:5500/shop/detailproduct/";
+        window.location.href =
+          "https://muhammadashariabdillah24.github.io/shop/detailproduct/";
       });
 
       cateringPackagesContainer.appendChild(cateringPackagesElement);
@@ -1098,7 +1101,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
       mealprepPackagesElement.classList.add("mealprep-packages-0-img-product");
 
       mealprepPackagesElement.innerHTML = `
-      <img src="http://127.0.0.1:5500/image/${
+      <img src="https://muhammadashariabdillah24.github.io/image/${
         product.image
       }" alt="Img Product" />
       <div class="mealprep-packages-0-img-desc-product">
@@ -1120,7 +1123,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
           typeProduct: "Mealprep Packages",
           indexOfTypeProduct: index,
           title: product.title,
-          image: `http://127.0.0.1:5500/image/${product.image}`,
+          image: `https://muhammadashariabdillah24.github.io/image/${product.image}`,
           description: product.description,
           minPrice: minPrice,
           maxPrice: maxPrice,
@@ -1128,7 +1131,8 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
         };
 
         localStorage.setItem("detailProduct", JSON.stringify(detailProduct));
-        window.location.href = "http://127.0.0.1:5500/shop/detailproduct/";
+        window.location.href =
+          "https://muhammadashariabdillah24.github.io/shop/detailproduct/";
       });
 
       mealprepPackagesContainer.appendChild(mealprepPackagesElement);
@@ -1177,7 +1181,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
           detailProductsElement.classList.add("detail-products-4-img-product");
 
           detailProductsElement.innerHTML = `
-      <img src="http://127.0.0.1:5500/image/${
+      <img src="https://muhammadashariabdillah24.github.io/image/${
         product.image
       }" alt="Img Product" />
       <div class="detail-products-4-img-desc-product">
@@ -1199,7 +1203,7 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
               typeProduct: detailProduct.typeProduct,
               indexOfTypeProduct: index,
               title: product.title,
-              image: `http://127.0.0.1:5500/image/${product.image}`,
+              image: `https://muhammadashariabdillah24.github.io/image/${product.image}`,
               description: product.description,
               minPrice: minPrice,
               maxPrice: maxPrice,
@@ -1210,7 +1214,8 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
               "detailProduct",
               JSON.stringify(sameDetailProduct)
             );
-            window.location.href = "http://127.0.0.1:5500/shop/detailproduct/";
+            window.location.href =
+              "https://muhammadashariabdillah24.github.io/shop/detailproduct/";
           });
 
           detailProductsContainer.appendChild(detailProductsElement);
@@ -1881,7 +1886,8 @@ Untuk pengiriman daerah Jadetabek hanya menggunakan Gosend / Grabsend untuk menj
           const checkoutButton = document.getElementById("checkout");
 
           checkoutButton.addEventListener("click", () => {
-            window.location.href = "http://127.0.0.1:5500/checkout";
+            window.location.href =
+              "https://muhammadashariabdillah24.github.io/checkout";
           });
         } else {
           cartItems.innerHTML = `
